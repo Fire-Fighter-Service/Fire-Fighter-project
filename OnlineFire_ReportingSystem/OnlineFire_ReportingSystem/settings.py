@@ -1686,6 +1686,188 @@ class Firereport(models.Model):
     Status = models.CharField(max_length=150, null=True)
     Postingdate = models.DateTimeField(auto_now_add=True)
     AssignedTime = models.CharField(max_length=150, null=True)
+
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
     UpdationDate = models.DateTimeField(null=True)
 
     def __str__(self):
@@ -1872,3 +2054,3255 @@ class Firereport(models.Model):
 
     def __str__(self):
         return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+    FullName = models.CharField(max_length=250, null=True)
+    MobileNumber = models.CharField(max_length=12, null=True)
+    Location = models.CharField(max_length=200, null=True)
+    Message = models.CharField(max_length=200, null=True)
+    AssignTo = models.ForeignKey(Teams, on_delete=models.CASCADE, null=True)
+    Status = models.CharField(max_length=150, null=True)
+    Postingdate = models.DateTimeField(auto_now_add=True)
+    AssignedTime = models.CharField(max_length=150, null=True)
+    UpdationDate = models.DateTimeField(null=True)
+
+    def __str__(self):
+        return self.FullName
+class Firereport(models.Model):
+  
