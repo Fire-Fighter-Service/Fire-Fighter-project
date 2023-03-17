@@ -1,0 +1,65 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Firefighting Service Website</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        /* Change the background color of the navbar */
+        .navbar {
+            background-color: #333;
+        }
+        /* Change the color of links on hover */
+        .navbar-nav li a:hover {
+            color: #f00;
+        }
+        /* Change the color of the active link */
+        .active {
+            color: #fff !important;
+            background-color: #f00 !important;
+        }
+        /* Add padding to the navbar links */
+        .navbar-nav li a {
+            padding: 10px;
+        }
+        /* Add a responsive header image */
+        .header-img {
+            background-image: url("{% static 'images/manyfighter.jpeg' %}");
+            background-size: cover;
+            background-position: center;
+            height: 650px;
+        }
+        /* Style the header text */
+        .header-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 3rem;
+            text-shadow: 2px 2px #333;
+        }
+    </style>
+</head>
+<body>
+    {% include 'navbar.html' %}
+
+    <div class="header-img">
+        <div class="header-text">
+            <h1>Welcome to our Firefighting Service Website</h1>
+            <p>Stay safe and protected with our professional firefighting services</p>
+        </div>
+    </div>
+
+    {% include 'footer.html' %}
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
