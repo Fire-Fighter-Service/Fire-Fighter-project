@@ -5,47 +5,73 @@
 <head>
     <meta charset="UTF-8">
     <title>Index - FireFighter Service... </title>
-    <!-- Import Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <!-- Add Bootstrap CSS CDN link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
     <style>
-      /* Define CSS for the overlay */
-      .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5); /* Make the overlay semi-transparent */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      /* Define CSS for the text in the overlay */
-      .overlay-text {
-        color: white;
-        font-size: 48px;
-        text-align: center;
-      }
+        /* Add custom CSS here */
+        body {
+            background-color: #f8f9fa;
+        }
+        
+        .jumbotron {
+            background-image: url("{% static 'images/firefighters.jpg' %}");
+            background-size: cover;
+            background-position: center center;
+            height: 600px;
+        }
+        
+        .jumbotron h1 {
+            font-size: 5rem;
+            color: white;
+            text-shadow: 2px 2px #333;
+        }
+        
+        .btn-primary {
+            background-color: #dc3545;
+            border-color: #dc3545;
+        }
+        
+        .btn-primary:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+        }
+        
+        .btn-primary:focus, .btn-primary.focus {
+            box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
+        }
     </style>
+    
 </head>
 <body>
 
-<!-- Add an overlay to the image -->
-<div class="position-relative">
-  <img src="{% static 'images/manyfighter.jpeg' %}" style="width:100%; height:650px;">
-  <div class="overlay">
-    <h1 class="overlay-text">Welcome to FireFighter Service</h1>
-    <p class="overlay-text">We provide top-quality fire safety and emergency services.</p>
-    <a class="btn btn-primary btn-lg mt-3" href="#" role="button">Learn More</a>
-  </div>
+<!-- Add jumbotron section using Bootstrap -->
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="display-1">Firefighter Service</h1>
+        <p class="lead">We are dedicated to protecting lives and property.</p>
+        <a href="#" class="btn btn-lg btn-primary">Learn more</a>
+    </div>
 </div>
 
-<!-- Import Bootstrap JS and jQuery -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- Add content section using Bootstrap -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Who we are</h2>
+            <p>We are a team of experienced and highly trained firefighters who are committed to providing the best possible service to our community.</p>
+            <a href="#" class="btn btn-primary">About us</a>
+        </div>
+        <div class="col-md-6">
+            <h2>What we do</h2>
+            <p>We offer a wide range of firefighting and rescue services, including fire suppression, emergency medical services, hazardous materials response, and more.</p>
+            <a href="#" class="btn btn-primary">Services</a>
+        </div>
+    </div>
+</div>
 
-</body>
-</html>
-{% include 'footer.html' %}
+<!-- Add Bootstrap JS CDN link -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j
+
