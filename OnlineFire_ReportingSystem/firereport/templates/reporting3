@@ -1,0 +1,92 @@
+{% include 'navbar.html' %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reporting - FireFighter Service</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f7f7f7;
+        }
+
+        .card {
+            border: 5px solid #623281;
+        }
+
+        .card-title {
+            text-transform: uppercase;
+            color: #40237e;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container mt-5">
+    <h3 class="page-title text-center">Online Fire Report</h3>
+    <div class="card mt-3">
+        <div class="card-body">
+            <h2 class="card-title text-center">Apply Now</h2>
+            <hr>
+            <form method="post">
+                {% csrf_token %}
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="FullName" class="form-control" placeholder="Enter Name" required>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Mobile Number</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="MobileNumber" class="form-control" placeholder="Enter Mobile No." maxlength="10"
+                               required>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Location</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="Location" class="form-control" placeholder="Enter Your Location" required>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Message</label>
+                    <div class="col-sm-10">
+                        <textarea name="Message" class="form-control" placeholder="Message...." required></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary float-right">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% if error == "no" %}
+<script>
+    alert('Reporting Successful');
+</script>
+{% endif %}
+
+{% if error == "yes" %}
+<script>
+    alert('Something went wrong, Try Again...');
+</script>
+{% endif %}
+
+<!-- Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+{% include 'footer.html' %}
