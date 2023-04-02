@@ -16,8 +16,7 @@ urlpatterns = [
     path('manageTeam', manageTeam, name='manageTeam'),
     path('editTeam/<int:pid>', editTeam, name='editTeam'),
     path('deleteTeam/<int:pid>', deleteTeam, name='deleteTeam'),
-    path('newRequest', newRequest, name='newRequest'),
-    path('assignRequest', assignRequest, name='assignRequest'),
+   
     path('teamontheway', teamontheway, name='teamontheway'),
     path('workinprogress', workinprogress, name='workinprogress'),
     path('completeRequest', completeRequest, name='completeRequest'),
